@@ -1,0 +1,152 @@
+﻿.pages_wrapper {
+	width: 83.3333333%;
+	margin: 0 auto;
+	min-width: 320px;
+}
+
+#downloadable_content_page {
+	background: #E8B968;
+	min-height: 754px;
+	overflow: hidden;
+	position: relative;
+}
+
+.downloadable_content_page_text_unit{
+	position: absolute;
+	top: 88px;
+	left: 13%;
+	max-width: 680px;
+}
+
+.downloadable_content_page_text_h1 {
+	font-family: LatoLight;
+	font-size: 55px;
+	margin-bottom: 25px;
+	letter-spacing: -1px;
+}
+
+.downloadable_content_page_text {
+	font-family: LatoRegular;
+	font-size: 16px;
+	line-height: 30.4px;
+	margin-bottom: 32px;
+	letter-spacing: -0.1px;
+	
+}
+
+.downloadable_content_page_btn_DowloadNow {
+    border: 3px solid #fff;
+    background: #E8B968;
+    font-family: LatoBold;
+    font-size: 1.125em;
+    padding: 20px 73px;
+	width: 128px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+	text-decoration: none;
+	display: block;
+}
+
+.downloadable_content_page_ipad {
+	position: absolute;
+    top: 67px;
+    right: -240px;
+    box-shadow: -19px 11px 1px rgba(0,0,0,.2);
+    border-top-left-radius: 57px;
+}
+.downloadable_content_page_round_water_small{
+	position: absolute;
+    bottom: 81px;
+    right: 402px;
+}
+.downloadable_content_page_round_water_big{
+	position: absolute;
+    bottom: -271px;
+    right: 21.75%;
+}
+.downloadable_content_page_btn_DowloadNow:hover {
+	border: 3px solid #345;
+    background: #d5a334;
+}
+
+@media screen and (max-width: 1800px){
+
+	.downloadable_content_page_ipad {
+	position: absolute;
+    top: 500px;
+	}
+
+	.downloadable_content_page_text_unit{
+	padding-right: 5%;
+	}
+
+	.downloadable_content_page_round_water_small{
+    bottom: 81px;
+    right: 252px;
+	}
+
+	.downloadable_content_page_round_water_big{
+	position: absolute;
+    bottom: -271px;
+    right: 198px;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	#downloadable_content_page {
+	height: 800px;
+	}
+
+	.downloadable_content_page_text_unit{
+	top: 32px;
+	padding-right: 5%;
+	}
+
+	.downloadable_content_page_ipad {
+	position: absolute;
+    top: 600px;
+    left: 200px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#downloadable_content_page {
+	height: 900px;
+	}
+
+	.downloadable_content_page_text_unit{
+	padding-right: 5%;
+	}
+
+	.downloadable_content_page_ipad {
+	position: absolute;
+    top: 650px;
+    left: 200px;
+	}
+}
+@media screen and (max-width: 550px){
+	#downloadable_content_page {
+	height: 1200px;
+	}
+
+	.downloadable_content_page_text_unit{
+	left: 8%;
+	}
+
+	.downloadable_content_page_ipad {
+	top: 1030px;
+    left: 100px;
+	}
+
+	.downloadable_content_page_round_water_small{
+    bottom: 81px;
+    right: 202px;
+	}
+
+	.downloadable_content_page_round_water_big{
+    bottom: -271px;
+    right: 148px;
+	}
+}

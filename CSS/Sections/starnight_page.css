@@ -1,0 +1,117 @@
+﻿.pages_wrapper {
+	width: 83.3333333%;
+	margin: 0 auto;
+	min-width: 320px;
+}
+
+
+#starnight_page {
+	background: url(../../../Images/background.png) #7a8387 no-repeat top center;
+	min-height: 882px;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+}
+.starnight_page_text_unit{
+	width: 42.6%;
+	margin: 182px auto 0;
+}
+.starnight_page_text_h1 {
+	font-size: 60px;
+	font-family: LatoLight;
+	letter-spacing: -1px;
+}
+.starnight_page_text {
+	font-size: 17px;
+	color: #B7C5C4;
+	font-family: LatoLightItalic;
+	line-height: 30px;
+	margin-top: 19px;
+}
+.starnight_page_play_btn_unit{
+	position: absolute;
+	top: 384px;
+	width: 99px;
+	left: calc(50% - 49.5px);
+	transition: top 1s ease 0.1s;
+	-webkit-transition: top 1s ease 0.1s;
+	-moz-transition: top 1s ease 0.1s;
+}
+.starnight_page_circle {
+	width: 79px;
+    height: 79px;
+    border: 10px solid #fff;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.starnight_page_triangle_right {
+	width: 0px;
+    height: 0px;
+	position:relative;
+	left: 33px;
+	top: 25px;
+	border-top: 15px solid transparent;
+    border-left: 18px solid #fff;
+    border-bottom: 15px solid transparent;
+}
+
+.starnight_page_btn_GetStarted {
+	font-size: 22px;
+	font-family: LatoBold;
+	line-height: 70px;
+	position: absolute;
+	bottom: 66px;
+	width: 280px;
+	height:70px;
+	background: #9cc;
+	border-radius: 3px;
+	text-align: center;
+	left: calc(50% - 140px);
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1025px){
+	.starnight_page_text_unit{
+	margin: 102px auto 0;
+	width: 80%;
+	}
+
+	.starnight_page_play_btn_unit{
+		top: 412px;
+		left: calc(50% - 49.5px);
+	}
+}
+@media screen and (max-width: 700px){
+	.starnight_page_text_unit {
+		margin: 82px auto 0;
+	}
+
+	.starnight_page_play_btn_unit {
+		top: 452px;
+		width: 99px;
+		left: calc(50% - 49.5px);
+	}
+
+	.starnight_page_text {
+		margin-top: 30px;
+	}
+}
+.starnight_page_btn_GetStarted:hover{
+	background: transparent;
+	box-shadow: 0 0 0 2px #3a7999;
+}
+.starnight_page_play_btn_unit:hover{
+	top: 360px;
+}
+
+.animated {
+  -webkit-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  
+  -webkit-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}

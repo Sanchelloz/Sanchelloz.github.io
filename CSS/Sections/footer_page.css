@@ -1,0 +1,92 @@
+﻿.pages_wrapper {
+	width: 83.3333333%;
+	margin: 0 auto;
+	min-width: 320px;
+}
+#footer_page {
+	background: #7ACCC8; 
+	min-height: 655px;
+	overflow: hidden;
+}
+
+.footer_page_columns-container{
+	max-width: 1180px;
+	margin: 29px auto 0;
+	overflow: hidden;
+}
+
+.footer_page_columns-container::after{
+	content: "";
+    display: table;
+    clear: both;
+}
+
+.footer_text_cols {
+	font-family: tahoma, sans-serif;
+	font-size: 14px;	
+	line-height: 24px;
+	float: left;
+}
+
+.footer_text_nam_mi_enim_col{
+	max-width: 400px;
+	letter-spacing: 0.4px;
+    word-spacing: -2px;
+}
+
+.footer_text_aliquam_dolor_col{
+	max-width: 240px;
+	padding-left: 19px;
+	letter-spacing: -0.2px;
+    word-spacing: 1px; 
+}
+
+.footer_text_list {
+	font-family: tahoma, sans-serif;
+	font-size: 14px; 
+	line-height: 35px;
+	float: right;
+	padding-right: 40px;
+}
+
+.footer_link_text { 
+	font-family: LatoRegular, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 78px;
+	margin-bottom: 50px;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
+
+.footer_emblem{
+	margin: 48px auto 0;
+	display: block;
+	transition-duration: 3s;
+	-moz-transition-duration: 3s;
+	transition-property: transform;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+}
+
+.footer_emblem:hover {
+     -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg); 
+}
+
+@media screen and (max-width: 1424px){
+	.footer_text_cols {
+		padding: 0 20px;
+	}
+}
+@media screen and (max-width: 770px){
+	.footer_text_list {
+	float: left;
+	padding: 0 20px;
+	width: 400px;
+	}
+
+	.footer_link_text{
+		line-height: 24px;
+	}
+}
